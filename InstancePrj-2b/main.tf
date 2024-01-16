@@ -8,18 +8,18 @@ module "ec2_instances" {
   instances = [
     {
       name  = "Test_Instance1"
-      ami   = "ami-0005e0cfe09cc9050"  # Replace with your desired AMI ID
-      type  = "t2.micro"               # Replace with your desired instance type
+      ami   = "ami-0005e0cfe09cc9050"  
+      type  = "t2.micro"               
     },
     {
       name  = "Test_Instance2"
-      ami   = "ami-0005e0cfe09cc9050"  # Replace with your desired AMI ID
-      type  = "t2.micro"               # Replace with your desired instance type
+      ami   = "ami-0005e0cfe09cc9050"  
+      type  = "t2.micro"              
     },
     {
       name  = "Test_Instance3"
-      ami   = "ami-0005e0cfe09cc9050"  # Replace with your desired AMI ID
-      type  = "t2.micro"               # Replace with your desired instance type
+      ami   = "ami-0005e0cfe09cc9050" 
+      type  = "t2.micro"              
     }
   ]
 }
